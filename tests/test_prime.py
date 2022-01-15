@@ -1,5 +1,5 @@
 import pytest
-from main.prime import is_prime
+from mlib.prime import is_prime
 
 
 @pytest.mark.parametrize(('number', 'expected'), [

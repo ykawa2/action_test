@@ -1,4 +1,4 @@
-from main import arithm
+from mlib import arithm
 import pytest
 
 
