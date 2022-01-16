@@ -16,7 +16,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   pytest:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     strategy:
       fail-fast: false
       matrix:
@@ -53,6 +53,6 @@ jobs:
 
       - name: Test with pytest
         run: |
-          echo $PYTHONPATH
+          echo PYTHONPATH=$PYTHONPATH
           tree
           python -m pytest -v
