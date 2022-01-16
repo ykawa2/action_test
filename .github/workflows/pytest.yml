@@ -50,6 +50,7 @@ jobs:
         run: |
           echo "PYTHONPATH=$PWD" >> $GITHUB_ENV
           echo $PYTHONPATH
+          
       - name: Test with pytest
         run: |
           echo $PYTHONPATH

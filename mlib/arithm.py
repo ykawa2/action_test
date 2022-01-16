@@ -16,4 +16,4 @@ def mul(a, b):
 
 def div(a, b):
     time.sleep(0.02)
-    return a // b
+    return a / b
