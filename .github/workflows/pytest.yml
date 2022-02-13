@@ -56,4 +56,4 @@ jobs:
           echo PYTHONPATH=$PYTHONPATH
           tree
           #pytest -vだと失敗する
-          pytest -v
+          python -m pytest -v
